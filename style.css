@@ -1,0 +1,52 @@
+body {
+    background-image: url(mybackground.png)
+}
+.om-mig {
+    color: #c51114;
+    text-align: center;
+    text-shadow: 2px 4px 4px #4913c9;
+    font-size: 50px;
+}
+.navigation > .links {
+    list-style: none; 
+}
+.navigation > .links li > .link {
+    color:#c51114;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #333;
+    text-decoration: none;
+}
+.navigation > .links li > .link:hover {
+    text-shadow: 2px 4px 8px #000;
+}
+.navigation >.part > .information {
+    color: #1b0202;
+    font-size: 15px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #46462f;
+    color: #fff;
+}
+p {
+    font-family: cursive , Pacifico;
+    text-shadow: rgba(0,0,255,1) -1px -2px 0.5em;
+    font-size: 20px;
+}
+.small {
+    font-size: 20px;
+}
+.ice {
+    width: 290px;
+    height: 250px;
+    border-radius: 25%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0,153,0);
+    box-shadow: 2px 2px 4px #4913c9;
+}
+header, hgroup, main, nav, section {
+    display: block;
+}
