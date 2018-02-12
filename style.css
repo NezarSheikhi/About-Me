@@ -39,6 +39,8 @@ p {
     font-size: 20px;
 }
 .ice {
+    display: block;
+    margin-left: 500px;
     width: 290px;
     height: 250px;
     border-radius: 25%;
@@ -46,7 +48,4 @@ p {
     border-width: 5px;
     border-color: rgb(0,153,0);
     box-shadow: 2px 2px 4px #4913c9;
-}
-header, hgroup, main, nav, section {
-    display: block;
 }
