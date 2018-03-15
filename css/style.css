@@ -1,11 +1,24 @@
 body {
-    background-image: url(mybackground.png)
+    background-image: url('pic/mybackground.png');
+    background-color: #cccccc;
 }
 .om-mig {
     color: #c51114;
     text-align: center;
     text-shadow: 2px 4px 4px #4913c9;
     font-size: 50px;
+}
+.pic {
+    text-align: center;
+}
+img {
+    width: 290px;
+    height: 250px;
+    border-radius: 25%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0,153,0);
+    box-shadow: 2px 2px 4px #4913c9;
 }
 .navigation > .links {
     list-style: none; 
@@ -38,15 +51,4 @@ p {
 .small {
     font-size: 20px;
 }
-.ice {
-    width: 290px;
-    height: 250px;
-    border-radius: 25%;
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(0,153,0);
-    box-shadow: 2px 2px 4px #4913c9;
-}
-header, hgroup, main, nav, section {
-    display: block;
-}
+
